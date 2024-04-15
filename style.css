@@ -1,0 +1,232 @@
+/* importation de la police 'Poppins' de Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700;900&display=swap');
+
+html, body{
+   font-family: 'Poppins', sans-serif; 
+   margin: 0;
+   padding: 0; 
+   background-color: rgb(255, 255, 255); 
+} 
+
+
+
+/* Section NAV*/
+*{ 
+   margin: 0;
+   padding: 0; 
+   box-sizing: border-box;
+}
+
+
+
+nav { 
+   position: fixed;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #ff860d; /* Couleur de fond de la barre de navigation */
+   object-fit: cover;
+   padding:  20px; /* Espacement interne */
+   color: #fff; /* Couleur du texte */ 
+   margin: none; 
+   width: 100%;
+}  
+
+
+nav img {
+   max-width: 100px; /* Ajustez la hauteur du logo */ 
+   height: 80px;
+   overflow-clip-margin: content-box;
+   overflow: clip;
+}
+
+nav ul {
+   list-style: none;
+   display: flex;
+   gap: 20px; /* Espacement entre les éléments de la liste */
+}
+
+nav ul li a {
+   text-decoration: none;
+   color: #fff; 
+   
+   
+} 
+
+nav a:hover {
+   color: black;
+} 
+
+
+
+.buttons-container {
+   display: flex;
+   align-items: center;
+   gap: 10px; /* Espacement entre les boutons et l'avatar */
+}
+
+.button a {
+   background-color: rgb(255, 51, 20); /* Couleur du bouton */
+   color: #fff;
+   padding: 5px 10px;
+   border-radius: 5px;
+   text-decoration: none; 
+   align-items: center; 
+   display: flex;
+   justify-content: center;
+} 
+
+  
+
+
+
+
+.avatar {
+   width: 100px;
+   height: 100px;
+   object-fit: cover;
+   border-radius: 100%;
+   border: black solid 3px;
+}  
+
+
+
+.img {
+   overflow-clip-margin: content-box;
+   overflow: clip;
+}
+/* Section HEADER*/
+.header h5 {
+
+   
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      text-align: center;
+      font-size: 1.5rem;
+  
+} 
+
+header img {
+    width: 1800px;
+    height: 900px;
+}
+
+/* Ajoutez des boutons sous le texte h5 */
+.header .buttons {
+   position: absolute;
+   top: 70%;
+   left: 50%;
+   transform: translateX(-50%);
+   display: flex;
+   gap: 10px;
+}
+
+/* Style des boutons (à personnaliser selon vos besoins) */
+.header .buttons button {
+   background-color: #ffffff;
+   color: rgb(0, 0, 0);
+   border-radius: 5px;
+   padding: 10px 20px;
+   cursor: pointer; 
+   
+} 
+
+header {
+   padding-bottom: 20px;
+}
+
+/*--FIN DE LA SECTION HEADER*/ 
+
+
+
+
+
+
+/*-- css SECTION SECTION qui comprend les 4 DIV (début)*/ 
+
+
+
+article img {
+   max-width: 100%;
+   height: auto; /* Hauteur ajustée automatiquement pour maintenir le ratio d'aspect */
+   margin-right: 20px; /* Espacement entre l'image et le texte */  
+
+
+   object-fit: cover; 
+   display: block;
+} 
+
+
+
+div h2 h3{
+   text-align: center;
+    
+} 
+
+h1{
+   text-align: center;
+   
+} 
+
+#Produits{
+display: flex; 
+flex-direction: row;
+justify-content: space-between;
+
+
+}
+
+
+
+.produits-container {
+   display: flex;
+   justify-content: space-between; 
+   gap: 12px;
+ }
+
+ 
+ 
+ 
+ div  h2, h3
+  {
+   align-items: center;
+   
+    /* Supprime la marge par défaut des titres */
+} 
+
+h3{
+   color: rgb(0, 255, 60); 
+   font-size: small;
+}  
+
+h2{
+   font-size: medium;
+}
+
+.produit {
+   box-shadow: 0 4px 6px rgba(1, 50, 83, 0.5);
+   border-radius: 10px; 
+   background-color: white; 
+   width: 30%;
+   overflow: hidden;
+    
+} 
+.informations{
+   padding: 16px;
+}
+
+.details{
+   display: flex; 
+   justify-content: space-between;
+}
+
+/*section FOOTER*/
+
+
+footer p {
+   text-align: center; 
+   
+}  
