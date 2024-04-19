@@ -77,7 +77,10 @@ nav a:hover {
    justify-content: center;
 } 
 
-  
+.button a:hover{
+    background-color: rgb(255, 108, 85); 
+    color: white;
+}  
 
 
 
